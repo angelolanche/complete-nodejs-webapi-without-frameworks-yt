@@ -1,6 +1,6 @@
 {
-  "name": "web-api",
-  "version": "0.0.1",
+  "name": "complete-nodejs-webapi-without-frameworks-yt",
+  "version": "1.0.0",
   "description": "Welcome, this repo is part of my youtube video about Creating and testing a complete Node.js Rest API (With no frameworks).",
   "main": "index.js",
   "type": "module",

@@ -1,0 +1,21 @@
+N-layer architecture
+
+database
+ - a file wich store all application data
+
+src - all source code
+ - entities - object mappings
+ - factories - instance generators
+ - repositories - data access
+ - routes - endpoint mappings
+ - services - communication between the routes repositories layer (business logic)
+ - util - shared code
+ - handler - communication between routes and server
+ - index.js - server instance
+
+tests -> all automated tests suites
+- integration tests - testing on the user point of view. It's also an E2E tests because 
+there is no app consuming it.
+- unit tests
+    all tests that must run without any external connection such as databases, external
+  APIs and, the fileSystem.
